@@ -1,0 +1,67 @@
+<div class="container-fluid my-nav-wrapper">
+  <div class="col-md-10 col-md-offset-1">
+     <div layout="column" layout-fill>
+  <md-toolbar class="md-toolbar-tools">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TK_home_icon.svg/2000px-TK_home_icon.svg.png"/>
+    <div class="my-text">
+      <span>TREVOR</span><span>KNOTT</span>
+    </div>
+    <span class="my-fill-remaining-space"></span>
+    <span><i class="material-icons" (mouseover)="sidenav.toggle()"  (mouseover)="sidenav2.toggle()">&#xE5C3;</i></span>
+    <!--<span>Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.</span>-->
+  </md-toolbar>
+ </div>
+  </div>
+</div>
+
+<md-sidenav-container style="background: url('http://i43.tinypic.com/9srvqe.jpg')">
+
+<ng-content></ng-content>
+
+  <md-sidenav #sidenav class="my-sidenav" align="end">
+    
+    <!--<md-list class="nav-list"> <!-- RIGHT SIDE --><!--
+      <md-list-item>Home</md-list-item>
+    <md-list-item>About</md-list-item>
+
+  <md-list-item>Item 3</md-list-item>
+</md-list>-->
+
+<div class="nav-list">
+  <md-grid-list cols="2" rowHeight="2:1">
+  <md-grid-tile>HOME</md-grid-tile>
+  <md-grid-tile>ABOUT</md-grid-tile>
+  <md-grid-tile>CONTACT</md-grid-tile>
+  <md-grid-tile>BLOG</md-grid-tile>
+    <!-- Row 2 -->
+  <md-grid-tile>HOME</md-grid-tile>
+  <md-grid-tile>ABOUT</md-grid-tile>
+  <md-grid-tile>CONTACT</md-grid-tile>
+  <md-grid-tile>BLOG</md-grid-tile>
+  <!-- Row 2 -->
+  <md-grid-tile>HOME</md-grid-tile>
+  <md-grid-tile>ABOUT</md-grid-tile>
+  <md-grid-tile>CONTACT</md-grid-tile>
+  <md-grid-tile>BLOG</md-grid-tile>
+    <!-- Row 2 -->
+  <md-grid-tile><i class="devicons devicons-linux"></i></md-grid-tile>
+  <md-grid-tile><i class="devicons devicons-debian"></i></md-grid-tile>
+  <md-grid-tile><i class="devicons devicons-nginx"></i></md-grid-tile>
+  <md-grid-tile><i class="devicons devicons-github_full"></i></md-grid-tile>
+</md-grid-list>
+</div>
+
+  </md-sidenav>
+
+  <md-sidenav #sidenav2 class="my-sidenav-left">
+    
+    <span class="nav-quote">
+      <h2>The future belongs to those who believe in the beauty of their dreams.</h2>
+      <h3>- Anna Eleanor Roosevelt</h3>
+    </span>
+
+  </md-sidenav>
+
+ 
+
+</md-sidenav-container>
