@@ -34,7 +34,7 @@ const appRoutes: Routes = [
   { path: '', component: LandingComponent },
   { path: 'about',      component: AboutComponent },
   { path: 'blog', component: BlogComponent},
-  { path: 'conact', component: ContactPageComponent}
+  { path: 'contact', component: ContactPageComponent}
   // { path: '**', component: PageNotFoundComponent }
 ];
 
