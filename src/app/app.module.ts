@@ -14,8 +14,14 @@ import {
   MdCardModule,
   MdInputModule,
   MdCheckboxModule,
-  MdGridListModule
+  MdGridListModule,
+  MdTabsModule
  } from '@angular/material';
+
+/* Services */
+import { BlogService } from './services/blog.service';
+
+import { HttpModule } from '@angular/http';
 
 
 /* Gesture Support (W/ M Design) */
@@ -55,6 +61,7 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(appRoutes),
     BrowserModule,
+    HttpModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MdToolbarModule,
@@ -64,9 +71,12 @@ const appRoutes: Routes = [
   MdCardModule,
   MdInputModule,
   MdCheckboxModule,
-  MdGridListModule
+  MdGridListModule,
+  MdTabsModule
   ],
-  providers: [],
+  providers: [
+    BlogService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,10 +1,19 @@
 <div class="col-md-8 col-md-offset-2">
   <md-card>
-  <h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1>
-<h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1>
-<h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1>
+  <div class="tk-blog-widget-wrapper" *ngIf="posts.length > 0">
+  <md-tab-group>
+    <div *ngFor="let post of posts">
+    <md-tab label="{{post.Title}}">
+            <h5>{{post.ID | json}}</h5>
+      <img  src="http://localhost:8080/Public/pics/{{post.Image}}"/>
 
+      <h2>{{post.Content | json}}</h2>
+      <hr>
+      <h6>{{post.Date | json }}</h6>
+    </md-tab>
+    </div>
+</md-tab-group>
+</div>
 
-<h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1><h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1><h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1><h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1><h1>eslkb/ljsevj efsel/nesnkl/se/nklseed/nkknnknlk</h1>
 </md-card>
 </div>
