@@ -1,0 +1,20 @@
+.footer-wrapper {
+  background-color: rgba(39,43,48, .2);
+  color: white;
+  position: relative;
+ 
+
+  h4, strong {
+      color: white;
+      font-weight: bolder;
+  }
+
+  a {
+    color: #616161;
+  }
+
+  a:hover {
+    color: rgba(darkslategrey, .5);
+    cursor: pointer;
+  }
+}

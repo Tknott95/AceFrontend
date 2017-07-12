@@ -1,5 +1,5 @@
 <div class="container-fluid my-nav-wrapper">
-  <div class="col-md-10 col-md-offset-1">
+  <div class="col-md-8 col-md-offset-2">
      <div layout="column" layout-fill>
   <md-toolbar class="md-toolbar-tools">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TK_home_icon.svg/2000px-TK_home_icon.svg.png"/>
@@ -7,16 +7,18 @@
       <span>TREVOR</span><span>KNOTT</span>
     </div>
     <span class="my-fill-remaining-space"></span>
-    <span><i class="material-icons" (mouseover)="sidenav.toggle()"  (mouseover)="sidenav2.toggle()">&#xE5C3;</i></span>
+    <span><i class="material-icons" (click)="sidenav.toggle()"  (click)="sidenav2.toggle()">&#xE5C3;</i></span>
     <!--<span>Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.</span>-->
   </md-toolbar>
  </div>
   </div>
 </div>
 
-<md-sidenav-container style="background: url('http://i43.tinypic.com/9srvqe.jpg')">
+<md-sidenav-container style="background: url('https://balancethroughthelens.files.wordpress.com/2012/07/dsc_0608ca1csg.jpg')">
 
-<ng-content></ng-content>
+<div class="main-content">
+  <ng-content></ng-content>
+</div>
 
   <md-sidenav #sidenav class="my-sidenav" align="end">
     
@@ -29,8 +31,8 @@
 
 <div class="nav-list">
   <md-grid-list cols="2" rowHeight="2:1">
-  <md-grid-tile>HOME</md-grid-tile>
-  <md-grid-tile>ABOUT</md-grid-tile>
+  <a href="/"><md-grid-tile>HOME</md-grid-tile></a>
+  <a href="/about"><md-grid-tile>ABOUT</md-grid-tile></a>
   <md-grid-tile>CONTACT</md-grid-tile>
   <md-grid-tile>BLOG</md-grid-tile>
     <!-- Row 2 -->

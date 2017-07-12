@@ -1,0 +1,29 @@
+.intro-sec {
+    height: 650px;
+    // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
+
+    /* Create the parallax scrolling effect */
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    .intro-content {
+        padding-top: 150px;
+        h1 {
+            font-size: 100px;
+            color: #1b6e45;
+            text-align: center;
+        }
+        h3 {
+            font-size: 80px;
+            color: #1b6e45;
+            text-align: center;
+        }
+    }
+}
+
+.mat-sidenav-container, .mat-sidenav-content {
+    transform: none !important;
+    transition: none !important;
+}
