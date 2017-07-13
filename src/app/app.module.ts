@@ -36,6 +36,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { LandingComponent } from './components/pages/landing/landing.component';
 import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { QuoteWidgetComponent } from './components/quote-widget/quote-widget.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent },
@@ -58,7 +59,8 @@ const appRoutes: Routes = [
     AboutComponent,
     LandingComponent,
     ContactPageComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    QuoteWidgetComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
