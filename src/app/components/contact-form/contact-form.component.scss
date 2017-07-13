@@ -1,0 +1,23 @@
+
+
+md-card {
+  color: white;
+    background-color: rgba(#212121, .5);
+
+  
+  margin: 300px 50px auto;
+
+  align-content: center;
+  align-self: center;
+
+  textarea {
+      width: 500px;
+  }
+
+  input, form, td, table {
+      color: white;
+          background-color: rgba(#212121, .0)  !important ;
+
+  }
+}
+

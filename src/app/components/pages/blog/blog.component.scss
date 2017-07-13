@@ -1,7 +1,27 @@
 md-card {
     margin-top: 200px;
-    width: 80%;
+    width: 70%;
     align-content: center;
     align-self: center;
-    color: white;
+    color: black;
+
+    &:hover {
+      opacity: .8;
+      cursor: pointer;
+      box-shadow: 5px;
+    }
+
+    p {
+      overflow: hidden;
+    }
+}
+
+.example-card {
+  width: 80%;
+  
+}
+
+.example-header-image {
+  background-size: cover;
+
 }

@@ -1,5 +1,5 @@
 <div class="col-md-8 col-md-offset-2">
-  <md-card>
+  <!--<md-card>
   <div class="tk-blog-widget-wrapper" *ngIf="posts.length > 0">
   <md-tab-group>
     <div *ngFor="let post of posts">
@@ -15,5 +15,34 @@
 </md-tab-group>
 </div>
 
+</md-card>-->
+
+<div class="col-md-8 col-md-offset-2">
+
+
+<div *ngFor="let p of posts">
+
+    <md-card class="example-card">
+  <md-card-header>
+    <div md-card-avatar  class="example-header-image"></div>
+    <md-card-title>{{p.Title}}</md-card-title>
+    <md-card-subtitle>{{p.Catgory}}</md-card-subtitle>
+  </md-card-header>
+  <img md-card-image src="http://localhost:8080/Public/pics/{{p.Image}}">
+  <md-card-content>
+    <p center text-center>
+      {{p.Category}} - {{p.Date}} - {{p.Author}}
+    </p>
+
+    <p center text-center>
+      {{p.Content}}
+    </p>
+    
+  </md-card-content>
+
 </md-card>
+</div>
+
+</div>
+
 </div>

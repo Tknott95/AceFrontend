@@ -35,6 +35,7 @@ import { BlogComponent } from './components/pages/blog/blog.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { LandingComponent } from './components/pages/landing/landing.component';
 import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent },
@@ -56,7 +57,8 @@ const appRoutes: Routes = [
     BlogComponent,
     AboutComponent,
     LandingComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    ContactFormComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
