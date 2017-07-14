@@ -1,53 +1,57 @@
 .intro-sec {
-    height: 750px;
-    // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
-
+    height: 800px; // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
     /* Create the parallax scrolling effect */
     // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-
     .card-hl {
-
-        :hover {
-            opacity: .5;
+        margin-top: -25px;
+         :hover {
+            opacity: .8;
         }
-
     }
-
     .example-card {
-  width: 400px;
-}
-
-.example-header-image {
-  background-image: url('http://localhost:8080/Public/pics/{{posts[5].Image}}');
-  background-size: cover;
-}
-
-md-card.lang-card {
-            margin: 0;
-        }
-
+        width: 400px;
+    }
+    .example-header-image {
+        background-image: url('http://localhost:8080/Public/pics/{{posts[5].Image}}');
+        background-size: cover;
+    }
+    md-card.lang-card {
+        margin: 0;
+    }
     md-card {
         margin: 85px 0;
         background-color: rgba(black, .1);
+        color: lightcyan;
 
-     
+        md-card-title {
+                // font-family: 'Playfair Display', serif;
+                    font-family: 'Bevan', cursive;
+                    font-size: 30px;
+
+
+        }
     }
-
     .intro-content {
         margin-top: 50px;
         padding: 250px auto;
+
+        h1,h2,h3,h4,h5,h6,p {
+                color: rgba(lightcyan, .5);
+
+        }
+
         h1 {
             font-size: 150px;
-            color: #1b6e45;
+            color: lightcyan;
             text-align: center;
         }
         h3 {
             font-size: 80px;
-            color: #1b6e45;
+            color: lightcyan;
             text-align: center;
         }
         h4 {
@@ -58,8 +62,8 @@ md-card.lang-card {
     }
 }
 
-.mat-sidenav-container, .mat-sidenav-content {
+.mat-sidenav-container,
+.mat-sidenav-content {
     transform: none !important;
     transition: none !important;
 }
-
