@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    overflow: hidden;
     .card-hl {
         margin-top: -25px;
          :hover {
@@ -26,24 +27,25 @@
         margin: 85px 0;
         background-color: rgba(black, .1);
         color: lightcyan;
-
+        overflow: hidden;
         md-card-title {
-                // font-family: 'Playfair Display', serif;
-                    font-family: 'Bevan', cursive;
-                    font-size: 30px;
-
-
+            // font-family: 'Playfair Display', serif;
+            font-family: 'Bevan', cursive;
+            font-size: 30px;
         }
     }
     .intro-content {
         margin-top: 50px;
         padding: 250px auto;
-
-        h1,h2,h3,h4,h5,h6,p {
-                color: rgba(lightcyan, .5);
-
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            color: rgba(lightcyan, .5);
         }
-
         h1 {
             font-size: 150px;
             color: lightcyan;
