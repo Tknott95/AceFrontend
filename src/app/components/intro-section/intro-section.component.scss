@@ -24,7 +24,7 @@
         width: 400px;
     }
     .example-header-image {
-        background-image: url('http://localhost:8080/Public/pics/{{posts[5].Image}}');
+        background-image: url('http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[7].Image}}');
         background-size: cover;
     }
     md-card.lang-card {

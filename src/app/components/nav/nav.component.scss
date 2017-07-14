@@ -52,12 +52,12 @@ md-sidenav-container {
     .my-sidenav {
         padding: 20px;
         width: 15%;
-        background-color: rgba(39, 43, 48, 0.7);
-        color: white;
+        background-color: rgba(lightcyan, 0.1);
+        color: lightcyan;;
     }
     .nav-list {
         md-grid-tile {
-            background: rgba(slategrey, 0.5);
+            background: rgba(lightcyan, 0.5);
             // position: fixed;
             /* or absolute */
             // top: 40%;
@@ -73,7 +73,7 @@ md-sidenav-container {
     .my-sidenav-left {
         padding: 20px;
         width: 40%;
-        background-color: rgba(200, 200, 200, 0.7);
+        background-color: rgba(lightcyan, 0.5);
         color: white;
     }
     .nav-quote {

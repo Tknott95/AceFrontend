@@ -24,6 +24,9 @@ import { BlogService } from './services/blog.service';
 
 import { HttpModule } from '@angular/http';
 
+/* PIPES */
+import { ReversePipe } from './pipes/reverse.pipe';
+
 
 /* Gesture Support (W/ M Design) */
 import 'hammerjs';
@@ -61,7 +64,8 @@ const appRoutes: Routes = [
     LandingComponent,
     ContactPageComponent,
     ContactFormComponent,
-    QuoteWidgetComponent
+    QuoteWidgetComponent,
+    ReversePipe
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

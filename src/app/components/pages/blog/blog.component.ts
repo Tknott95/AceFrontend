@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BlogService } from '../../../services/blog.service';
 import { DomSanitizer } from '@angular/platform-browser';
+// import { ReversePipe } from '../../../pipes/reverse.pipe';
 
 @Component({
   selector: 'tk-blog',
