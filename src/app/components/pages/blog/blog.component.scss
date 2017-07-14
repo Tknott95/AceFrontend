@@ -34,3 +34,18 @@ md-card {
   margin-right: auto;
   float: none;
 }
+
+.blog-intro {
+    height: 50%; // if media less then media hit pixels @TODO
+    // background-color: black;
+    background-image: url('http://img0.liveinternet.ru/images/attach/c/1//50/820/50820173_1257502935_10.jpg');
+
+    .text-center {
+        padding-top: 100px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 100px;
+    }
+}
