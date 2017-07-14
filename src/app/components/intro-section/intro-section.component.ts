@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BlogService } from './../../services/blog.service';
 
 @Component({
   selector: 'tk-intro-section',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro-section.component.scss']
 })
 export class IntroSectionComponent implements OnInit {
+  posts: any = [];
 
-  constructor() { }
+  constructor(private _blogService: BlogService) { }
 
   ngOnInit() {
+
+    this._blogService.getBlogPosts()
+      .subscribe(res => this.posts = res)
   }
 
 }

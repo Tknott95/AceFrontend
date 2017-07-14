@@ -1,5 +1,5 @@
 .intro-sec {
-    height: 650px;
+    height: 750px;
     // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
 
     /* Create the parallax scrolling effect */
@@ -9,13 +9,37 @@
     background-size: cover;
     color: white;
 
+    .card-hl {
+
+        :hover {
+            opacity: .5;
+        }
+
+    }
+
+    .example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('http://localhost:8080/Public/pics/{{posts[5].Image}}');
+  background-size: cover;
+}
+
+md-card.lang-card {
+            margin: 0;
+        }
+
     md-card {
-        margin-top: 50px;
+        margin: 85px 0;
         background-color: rgba(black, .1);
+
+     
     }
 
     .intro-content {
-        padding-top: 150px;
+        margin-top: 50px;
+        padding: 250px auto;
         h1 {
             font-size: 150px;
             color: #1b6e45;

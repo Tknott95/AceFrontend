@@ -15,7 +15,8 @@ import {
   MdInputModule,
   MdCheckboxModule,
   MdGridListModule,
-  MdTabsModule
+  MdTabsModule,
+    MdButtonModule
  } from '@angular/material';
 
 /* Services */
@@ -69,14 +70,15 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MdToolbarModule,
-  MdSidenavModule,
-  MdListModule,
-  MdProgressSpinnerModule,
-  MdCardModule,
-  MdInputModule,
-  MdCheckboxModule,
-  MdGridListModule,
-  MdTabsModule
+    MdSidenavModule,
+    MdListModule,
+    MdProgressSpinnerModule,
+    MdCardModule,
+    MdInputModule,
+    MdCheckboxModule,
+    MdGridListModule,
+    MdTabsModule,
+    MdButtonModule
   ],
   providers: [
     BlogService

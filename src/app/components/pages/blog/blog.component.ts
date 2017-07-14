@@ -9,7 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class BlogComponent implements OnInit {
 
-    postTitle : string = null;
+  postTitle : string = null;
   posts: any = [];
 
   constructor(private _blogService: BlogService, public sanitizer: DomSanitizer) {
