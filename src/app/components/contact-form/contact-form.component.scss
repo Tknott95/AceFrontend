@@ -1,17 +1,37 @@
 .wrpr {
     margin-bottom: 150px;
-
+    md-tab {
+        font-family: 'Bevan', cursive;
+        color: white;
+    }
     md-card {
+        box-shadow: black 1px 1px;
         &.first {
-            margin: 230px 50px auto;
+            margin: 230px 50px 100px;
+            background-color: rgba(black, 0)
         }
         color: white;
-        background-color: rgba(#212121, 0.1);
-        height: 320px;
-        margin: 50px 50px auto;
+        background-color: rgba(#212121, 0.1); // height: 320px;
+        // margin: 50px 50px auto;
         align-content: center;
-        align-self : textarea {
+        align-self: textarea {
             width: 500px;
+            height: 80px;
+        }
+        margin-bottom: 200px;
+        h1 {
+            color: lightcyan;
+            text-shadow: black 4px 4px;
+        }
+        h4 {
+            color: lightcyan;
+            box-shadow: black 1px 1px;
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            span {
+                color: cyan;
+                opacity: .5;
+            }
         }
         input,
         form,
@@ -59,6 +79,7 @@
         font-size: 1.3em;
         line-height: 1em;
         font-weight: normal;
+        color: lightcyan;
     }
     .form-control {
         font-size: 1.3em;
@@ -66,6 +87,7 @@
     }
     textarea.form-control {
         height: 135px;
+        opacity: .8;
         /* margin-top: px;*/
     }
     .submit {

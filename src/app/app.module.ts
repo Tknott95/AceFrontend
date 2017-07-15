@@ -21,6 +21,8 @@ import {
 
 /* Services */
 import { BlogService } from './services/blog.service';
+import { LangService } from './services/lang.service';
+
 
 import { HttpModule } from '@angular/http';
 
@@ -85,7 +87,8 @@ const appRoutes: Routes = [
     MdButtonModule
   ],
   providers: [
-    BlogService
+    BlogService,
+    LangService
   ],
   bootstrap: [AppComponent]
 })

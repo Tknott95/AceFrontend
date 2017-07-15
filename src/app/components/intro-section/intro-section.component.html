@@ -2,7 +2,7 @@
   <div class="intro-content col-md-8 col-md-offset-2">
     `
     <div class="col-lg-4 col-md-2 col-xs-12 card-hl">
-      <md-card class="example-card">
+      <md-card *ngIf="posts" class="example-card animated fadeInRight">
         <md-card-header>
           <div md-card-avatar class="example-header-image"></div>
           <md-card-title>{{posts[6].Title}}</md-card-title>
@@ -15,18 +15,18 @@
           </p>
         </md-card-content>
         <md-card-actions>
-          <button md-button>LIKE</button>
-          <button md-button>SHARE</button>
+          <a href="/blog" md-button>VIEW BLOG</a>
+          <a target="_blank" href="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[6].Image}}" md-button>VIEW PHOTO ON GO SERVER</a>
         </md-card-actions>
       </md-card>
     </div>
 
-    <div class="col-lg-8 col-md-10 hidden-md hidden-sm hidden-xs">
+    <div class="col-lg-8 col-md-10 hidden-md hidden-sm hidden-xs animated fadeIn">
       <h1 class="title-txt">TREVOR KNOTT</h1>
       <hr>
       <h4>Ambitious crafter, pragmatic thinker, detail oriented professional ... the image of the artist has changed radically over the centuries. Art now expressed through logic spinning off a new era as we know it.
       </h4>
-   <md-card class="lang-card hidden-md">
+   <md-card class="lang-card hidden-md animated fadeInRight">
         <h5>golang typscript elixir C# 
         golang typscript elixir C# g
         olang typscript elixir C# 

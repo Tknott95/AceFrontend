@@ -7,15 +7,14 @@
     background-size: cover;
     color: white;
     overflow: hidden;
-
     .title-txt {
-            text-shadow: black 8px 8px;
-
+        text-shadow: black 8px 8px;
     }
     .card-hl {
         margin-top: -25px;
-                   md-card-title{ text-shadow: black 4px 4px;}
-
+        md-card-title {
+            text-shadow: black 4px 4px;
+        }
          :hover {
             opacity: .8;
         }
@@ -24,7 +23,7 @@
         width: 400px;
     }
     .example-header-image {
-        background-image: url('http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[7].Image}}');
+        background-image: url('');
         background-size: cover;
     }
     md-card.lang-card {
@@ -55,7 +54,7 @@
         }
         h1 {
             font-size: 150px;
-            color: lightcyan;
+            color: lightgray;
             text-align: center;
         }
         h3 {
