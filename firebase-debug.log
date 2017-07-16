@@ -1,0 +1,32 @@
+[debug] [2017-07-16T06:33:22.584Z] ----------------------------------------------------------------------
+[debug] [2017-07-16T06:33:22.586Z] Command:      /home/tk/.nvm/versions/node/v8.1.0/bin/node /home/tk/.nvm/versions/node/v8.1.0/bin/firebase init
+[debug] [2017-07-16T06:33:22.586Z] CLI Version:  3.9.1
+[debug] [2017-07-16T06:33:22.586Z] Platform:     linux
+[debug] [2017-07-16T06:33:22.586Z] Node Version: v8.1.0
+[debug] [2017-07-16T06:33:22.586Z] Time:         Sun Jul 16 2017 00:33:22 GMT-0600 (MDT)
+[debug] [2017-07-16T06:33:22.586Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-16T06:33:22.599Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-07-16T06:33:22.599Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tk/Workspace/Angular4/Prex/prex
+
+[warn] ⚠  You have have not selected any features. Continuing will simply associate this folder with a Firebase project. Press Ctrl + C if you want to start over.
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-07-16T06:33:25.758Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sun Jul 16 2017 00:33:25 GMT-0600 (MDT)
+[debug] [2017-07-16T06:33:26.457Z] <<< HTTP RESPONSE 200
