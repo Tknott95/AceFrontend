@@ -1,5 +1,5 @@
 .intro-sec {
-    height: 800px; // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
+    // height: 800px; // background-image: url('http://cdn.steamcommunity.com/economy/image/fhsbEaLeeJ9zhZPxgYkKKsZX0aDmrnbfp0tA62VvQo23ECzq-8I-jdNcjw-n6USgy0LIs7PsNMesRl3zZGxDiroUP6rlyi2P0gHDCb6jWqeBEZXg7rdpnfYaSO5-f1SK4009t-rGfNmDQt9QrqMA5sgbkOXssm_W9Rsf6Xt5Bo34Fyzi');
     /* Create the parallax scrolling effect */
     // background-attachment: fixed;
     background-position: center;
@@ -20,7 +20,7 @@
         }
     }
     .example-card {
-        width: 400px;
+        width: 100%;;
     }
     .example-header-image {
         background-image: url('');
@@ -53,17 +53,17 @@
             color: rgba(lightcyan, .5);
         }
         h1 {
-            font-size: 150px;
+            font-size: 120px;
             color: lightgray;
             text-align: center;
         }
         h3 {
-            font-size: 80px;
+            font-size: 60px;
             color: lightcyan;
             text-align: center;
         }
         h4 {
-            font-size: 50px;
+            font-size: 57px;
             font-weight: 300;
             font-family: 'Times New Roman', Times, serif;
         }
@@ -74,4 +74,18 @@
 .mat-sidenav-content {
     transform: none !important;
     transition: none !important;
+}
+
+.text-side {
+    margin: auto 0px;
+    overflow: hidden;
+    a {
+  display: block;
+  margin: auto;
+}
+}
+
+.lang-card {
+    padding-top: 40px;
+    height: 145px;
 }
