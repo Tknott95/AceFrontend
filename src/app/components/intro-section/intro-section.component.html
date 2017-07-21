@@ -1,22 +1,21 @@
 <div class="intro-sec">
   <div class="intro-content col-md-8 col-md-offset-2">
-    `
     <div class="hidden-lg col-xs-12 card-hl">
-      <md-card *ngIf="posts" class="example-card animated fadeInRight">
+      <md-card *ngIf="posts[1] !== nil" class="example-card animated fadeInRight">
         <md-card-header>
           <div md-card-avatar class="example-header-image"></div>
-          <md-card-title>{{posts[6].Title}}</md-card-title>
-          <md-card-subtitle>{{posts[6].Author}} || {{posts[6].Category}}</md-card-subtitle>
+          <md-card-title>{{posts[1].Title}}</md-card-title>
+          <md-card-subtitle>{{posts[1].Author}} || {{posts[1].Category}}</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[6].Image}}">
+        <img md-card-image src="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[1].Image}}">
         <md-card-content>
           <p>
-            {{posts[6].Content}}
+            {{posts[1].Content}}
           </p>
         </md-card-content>
         <md-card-actions>
           <a href="/blog" md-button>VIEW BLOG</a>
-          <a target="_blank" href="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[6].Image}}" md-button>VIEW PHOTO ON GO SERVER</a>
+          <a target="_blank" href="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{posts[1].Image}}" md-button>VIEW PHOTO ON GO SERVER</a>
         </md-card-actions>
       </md-card>
     </div>
@@ -24,7 +23,7 @@
     <div class="col-lg-12 hidden-md hidden-sm hidden-xs animated fadeIn text-side">
       <h1 class="title-txt">TREVOR KNOTT</h1>
       <hr>
-      <h4>Ambitious crafter, pragmatic thinker, detail oriented professional ... the image of the artist has changed radically over the centuries. Art now expressed through logic spinning off a new era as we know it.
+      <h4>Ambitious crafter, pragmatic thinker, detail oriented professional... the image of the artist has changed radically over the centuries. Art now expressed through logic spinning off a new era as we know it.
       </h4>
       <br>
       <a md-button href="blog">VIEW TREVOR'S BLOG</a>

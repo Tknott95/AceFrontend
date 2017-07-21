@@ -4,6 +4,7 @@
 now=$(date +"%s")"-tkio"
 time=$now
 
+rm -rf dist/
 ng build --env=prod --aot
 
 mkdir dist/nginx/
