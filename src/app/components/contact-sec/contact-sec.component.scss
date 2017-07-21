@@ -1,41 +1,63 @@
-.jumbotron {
-  background-color: rgba(black, .8); // color: #f4511e;
-  color: lightcyan;
-  padding: 100px 25px;
-  margin-bottom: 0;
+@import '../../../assets/scss/_variables.scss';
 
-  overflow: hidden;
-  h1 {
-    font-size: 90px;
-    color: black;
-    text-shadow: lightcyan 2px 2px;
-  }
-  img {
-    height: 250px;
-  }
+@media(max-width: $screen-md-max) {
+    h1 {
+            font-size: 80px;
+            color: black;
+            text-shadow: lightcyan 2px 2px;
+        }
+        h3 {
+            font-size: 38px;
+        text-shadow: lightcyan .115px .115px;
+        }
+        p {
+            font-size: 20px;
+        }
+        i {
+            font-size: 100px;
+        }
 }
 
-.container-fluid {
-  padding: 60px 50px;
+@media(min-width: $screen-lg-min) {
+   h1 {
+            font-size: 110px;
+            color: black;
+            text-shadow: lightcyan 2px 2px;
+        }
+        h3 {
+            font-size: 33px;
+        text-shadow: lightcyan .115px .115px;
+        }
+        p {
+            font-size: 25px;
+        }
+        i {
+            font-size: 150px;
+        }
 }
 
-h3 {
-  font-size: + 3px;
-      text-shadow: lightcyan .15px .15px;
-
-}
-
-.bg-grey {
-  background-color: #f6f6f6;
-}
-
-.logo-small {
-  color: lightcyan;
-  font-size: 50px;
-}
-
-.logo {
-  color: lightcyan;
-  font-size: 200px;
-}
-
+ .jumbotron {
+        background-color: rgba(black, .8); // color: #f4511e;
+        color: lightcyan;
+        padding: 50px 25px;
+        margin-bottom: 0;
+        overflow: hidden;
+        
+    }
+    .container-fluid {
+        padding: 60px 50px;
+    }
+    h3 {
+       
+    }
+    .bg-grey {
+        background-color: #f6f6f6;
+    }
+    .logo-small {
+        color: lightcyan;
+        font-size: 50px;
+    }
+    .logo {
+        color: lightcyan;
+        font-size: 200px;
+    }

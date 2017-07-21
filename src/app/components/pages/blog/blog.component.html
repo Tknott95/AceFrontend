@@ -24,38 +24,38 @@
 </md-card>-->
 
 
-<div class="col-md-8 col-md-offset-2">
+  <div class="col-md-8 col-md-offset-2">
 
-  <!--<md-card>
+    <!--<md-card>
     <h1>BLOG - Microservice Based</h1>
   </md-card>-->
 
 
-<div class="post-wrpr" *ngFor="let p of posts">
-<a target="_blank" href="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{p.Image}}">
+    <div class="post-wrpr" *ngFor="let p of posts">
+      <a target="_blank" href="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{p.Image}}">
 
-    <md-card class="example-card animated fadeInDown">
-  <md-card-header>
-    <div md-card-avatar  class="example-header-image"></div>
-    <md-card-title>{{p.Title}}</md-card-title>
-    <md-card-subtitle>{{p.Catgory}}</md-card-subtitle>
-  </md-card-header>
-  <img md-card-image src="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{p.Image}}">
-  <md-card-content>
-    <p center text-center>
-      {{p.Category}} - {{p.Date}} - {{p.Author}}
-    </p>
+        <md-card class="example-card animated fadeInDown">
+          <md-card-header>
+            <div md-card-avatar class="example-header-image"></div>
+            <md-card-title>{{p.Title}}</md-card-title>
+            <md-card-subtitle>{{p.Catgory}}</md-card-subtitle>
+          </md-card-header>
+          <img md-card-image src="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{p.Image}}">
+          <md-card-content>
+            <p center text-center>
+              {{p.Category}} - {{p.Date}} - {{p.Author}}
+            </p>
 
-    <p center text-center>
-      {{p.Content}}
-    </p>
-    
-  </md-card-content>
+            <p center text-center>
+              {{p.Content}}
+            </p>
 
-</md-card>
-</a>
-</div>
+          </md-card-content>
 
-</div>
+        </md-card>
+      </a>
+    </div>
+
+  </div>
 
 </div>

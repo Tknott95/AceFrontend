@@ -1,8 +1,13 @@
+// @import '~bootstrap/scss/_variables.scss';
+@import '../../../assets/scss/_variables.scss';
+
+  @media(max-width: $screen-lg-min){
+
 .lang-img-wrapper {
   background-color: rgba(darkgrey, .1);
   height: 225px;
   .row {
-    padding-top: 20px;
+    padding-top: 50px;
   }
   p {
     padding-top: 7px;
@@ -10,8 +15,10 @@
     opacity: 0.2;
     font-size: 12px;
   }
-  .devicons {
-    font-size: 180px;
+
+
+   .devicons {
+    font-size: 150px;
     color: lightcyan;
     opacity: 0.5;
     margin-top: 40px;
@@ -19,3 +26,40 @@
     margin: auto;
   }
 }
+}
+
+@media(min-width: $screen-lg-min){
+
+
+.lang-img-wrapper {
+  background-color: rgba(darkgrey, .1);
+  height: 425px;
+  .row {
+    padding-top: 50px;
+  }
+  p {
+    padding-top: 7px;
+    color: white;
+    opacity: 0.2;
+    font-size: 12px;
+  }
+
+
+   .devicons {
+    font-size: 280px;
+    color: lightcyan;
+    opacity: 0.5;
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+  }
+}
+ 
+}
+
+
+//media(max-width: $screen-xs-max){}
+// @media(min-width: $screen-sm-min){}  /* deprecated: @screen-tablet, or @screen-sm */
+  /* deprecated: @screen-desktop, or @screen-md */
+// @media(min-width: $screen-lg-min){}  /* deprecated: @screen-lg-desktop, or @screen-lg */
+
