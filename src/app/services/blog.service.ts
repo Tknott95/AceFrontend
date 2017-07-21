@@ -8,7 +8,9 @@ export class BlogService {
   constructor(private http: Http) { }
 
   getBlogPosts(): any {
-    return this.http.get('http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/api/blog_posts')
+  return this.http.get('http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/api/blog_posts')
+    // TO TES DIFF QUERIES LOCALLY NEED AS PROXY @TODO
+    // return this.http.get('http://localhost:8080/api/blog_posts')
       .map(res => res.json());
   }
 }
