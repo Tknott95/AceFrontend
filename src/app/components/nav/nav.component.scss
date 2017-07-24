@@ -83,13 +83,11 @@ md-sidenav-container {
         padding: 20px;
         width: 15%;
         background-color: rgba(lightcyan, 0.1);
-        color: lightcyan;;
+        color: lightcyan;
     }
     .nav-list {
         md-grid-tile {
-            background: rgba(lightcyan, 0.5);
-             background-image: url('http://image.made-in-china.com/2f0j00GvmERySgAdkU/Microfiber-Leather-With-PU-Surface-ABPMFS0622-13-.jpg');
-       // background-image: url('http://www.dhacam.com.ar/images/backgrounds/background_white.jpg');
+            background: rgba(white, 0.2);
 
             // position: fixed;
             /* or absolute */
@@ -106,8 +104,7 @@ md-sidenav-container {
     .my-sidenav-left {
         padding: 20px;
         width: 40%;
-        background-image: url('http://image.made-in-china.com/2f0j00GvmERySgAdkU/Microfiber-Leather-With-PU-Surface-ABPMFS0622-13-.jpg');
-        background-color: rgba(lightcyan, 0.5);
+        background-color: rgba(black, 0.2);
         color: white;
     }
 
@@ -134,8 +131,7 @@ md-sidenav-container {
         h2 {
             font-weight: 600px;
             font-size: 45px;
-            text-shadow: white 3px 3px;
-        }
+color: white;        }
     }
 }
 
