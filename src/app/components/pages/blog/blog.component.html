@@ -37,18 +37,18 @@
         <md-card class="example-card animated fadeInDown">
           <md-card-header>
             <div md-card-avatar class="example-header-image"></div>
-            <md-card-title>{{p.Title}}</md-card-title>
+            <md-card-title><h3>{{p.Title}}</h3></md-card-title>
             <md-card-subtitle>{{p.Catgory}}</md-card-subtitle>
           </md-card-header>
           <img md-card-image src="http://ec2-54-153-114-109.us-west-1.compute.amazonaws.com/Public/pics/{{p.Image}}">
           <md-card-content>
-            <p center text-center>
-              {{p.Category}} - {{p.Date}} - {{p.Author}}
-            </p>
+            <h6 center text-center>
+              {{p.Category}}
+            </h6>
 
-            <p center text-center>
+            <h2 class="pcontent" center text-center>
               {{p.Content}}
-            </p>
+            </h2>
 
           </md-card-content>
 

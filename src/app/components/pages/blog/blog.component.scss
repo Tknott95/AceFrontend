@@ -8,6 +8,10 @@ md-card {
   margin-right: auto;
   float: none;
 
+  img {
+    size: 300px;
+  }
+
     &:hover {
       opacity: .8;
       cursor: pointer;
