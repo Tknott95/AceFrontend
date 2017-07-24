@@ -86,6 +86,7 @@ md-sidenav-container {
         color: lightcyan;
     }
     .nav-list {
+
         md-grid-tile {
             background: rgba(white, 0.2);
 
@@ -114,6 +115,7 @@ md-sidenav-container {
         font-size: 40px;
         font-weight: bolder;
 
+        a {color: white}
         a:hover {
             opacity: .5;
         }
@@ -131,7 +133,8 @@ md-sidenav-container {
         h2 {
             font-weight: 600px;
             font-size: 45px;
-color: white;        }
+            color: white;
+        }
     }
 }
 
@@ -160,4 +163,8 @@ h1 {
 
 .main-content {
     padding-top: 0;
+}
+
+.mat-list-item {
+    color: white;
 }
