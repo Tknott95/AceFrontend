@@ -1,69 +1,103 @@
 <div class="container-fluid my-nav-wrapper">
   <div class="col-md-8 col-md-offset-2 col-xs-12">
-     <div layout="column" layout-fill>
-  <md-toolbar class="md-toolbar-tools">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TK_home_icon.svg/2000px-TK_home_icon.svg.png"/>
-    <div class="my-text hidden-xs">
-      <span>TREVOR</span><span>KNOTT</span>
-    </div>
-    <span class="my-fill-remaining-space"></span>
+    <div layout="column" layout-fill>
+      <md-toolbar class="md-toolbar-tools">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/TK_home_icon.svg/2000px-TK_home_icon.svg.png" />
+        <div class="my-text hidden-xs">
+          <span>TREVOR</span><span>KNOTT</span>
+        </div>
+        <span class="my-fill-remaining-space"></span>
         <a class="fa-b" target="_blank" href="https://www.linkedin.com/in/trevor-knott-32184269/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
-    <a class="fa-a" target="_blank" href="https://github.com/Tknott95"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <a class="fa-a" target="_blank" href="https://github.com/Tknott95"><i class="fa fa-github-square" aria-hidden="true"></i></a>
 
-    <span><i class="material-icons" (mouseover)="sidenav.toggle()"  (mouseover)="sidenav2.toggle()">&#xE5C3;</i></span>
-    <!--<span>Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.</span>-->
-  </md-toolbar>
- </div>
+        <span><i class="hidden-xs material-icons" (mouseover)="sidenav.toggle()"  (mouseover)="sidenav2.toggle()">&#xE5C3;</i></span>
+        <span><i class="hidden-sm hidden-md hidden-lg hidden-xl material-icons" (click)="sidenav2.toggle()">&#xE5C3;</i></span>
+
+
+        <!--<span>Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.</span>-->
+      </md-toolbar>
+
+
+
+    </div>
   </div>
 </div>
 
 <md-sidenav-container style="background: url('https://balancethroughthelens.files.wordpress.com/2012/07/dsc_0608ca1csg.jpg')">
 
-<div class="main-content">
-  <ng-content></ng-content>
-</div>
+  <div class="main-content">
+    <ng-content></ng-content>
+  </div>
 
   <md-sidenav #sidenav class="my-sidenav" align="end">
-    
-    <!--<md-list class="nav-list"> <!-- RIGHT SIDE --><!--
+
+    <!--<md-list class="nav-list"> <!-- RIGHT SIDE -->
+    <!--
       <md-list-item>Home</md-list-item>
     <md-list-item>About</md-list-item>
 
   <md-list-item>Item 3</md-list-item>
 </md-list>-->
 
-<div class="nav-list">
-  <md-grid-list cols="1" rowHeight="1:1">
-  <a href="/"><md-grid-tile><img src="http://www.free-icons-download.net/images/home-home-icon-80046.png" alt=""></md-grid-tile></a>
-   <a href="/blog"><md-grid-tile><img src="https://cdn3.iconfinder.com/data/icons/communication/512/Blog_C-512.png" alt=""></md-grid-tile></a>
-  <a href="/about"><md-grid-tile><img src="https://png.icons8.com/recent-actors-filled/ios7/1600" alt=""></md-grid-tile></a>
-  <a href="/contact"><md-grid-tile><img src="http://simpleicon.com/wp-content/uploads/mail-open-3.png" alt=""></md-grid-tile></a>
-    <!-- Row 2 -->
-  <!--<md-grid-tile>HOME</md-grid-tile>
-  <md-grid-tile>ABOUT</md-grid-tile>
-  <md-grid-tile>CONTACT</md-grid-tile>
-  <md-grid-tile>BLOG</md-grid-tile>-->
+    <div class="nav-list">
+      <md-grid-list cols="1" rowHeight="1:1">
+        <a href="/">
+          <md-grid-tile><img src="http://www.free-icons-download.net/images/home-home-icon-80046.png" alt=""></md-grid-tile>
+        </a>
+        <a href="/blog">
+          <md-grid-tile><img src="https://cdn3.iconfinder.com/data/icons/communication/512/Blog_C-512.png" alt=""></md-grid-tile>
+        </a>
+        <a href="/about">
+          <md-grid-tile><img src="https://png.icons8.com/recent-actors-filled/ios7/1600" alt=""></md-grid-tile>
+        </a>
+        <a href="/contact">
+          <md-grid-tile><img src="http://simpleicon.com/wp-content/uploads/mail-open-3.png" alt=""></md-grid-tile>
+        </a>
 
-    <!-- Row 2 -->
-  <!--<md-grid-tile><i class="devicons devicons-linux"></i></md-grid-tile>
-  <md-grid-tile><i class="devicons devicons-debian"></i></md-grid-tile>
-  <md-grid-tile><i class="devicons devicons-nginx"></i></md-grid-tile>
-  <md-grid-tile><i class="devicons devicons-github_full"></i></md-grid-tile>-->
-</md-grid-list>
-</div>
+      </md-grid-list>
+
+    </div>
 
   </md-sidenav>
 
   <md-sidenav #sidenav2 class="my-sidenav-left">
-    
-    <span class="nav-quote">
+
+    <span class="hidden-xs nav-quote">
       <h2>The future belongs to those who believe in the beauty of their dreams.</h2>
       <h3>- Anna Eleanor Roosevelt</h3>
     </span>
 
+    <md-list class="mobile-nav hidden-md hidden-sm hidden-lg hidden-xl text-center">
+ <a href="/"><md-list-item>Home</md-list-item></a>
+ <a href="/blog"><md-list-item>Blog</md-list-item></a>
+ <a href="/contact"><md-list-item>Contact</md-list-item></a>
+ <a href="/about"><md-list-item>About</md-list-item></a>
+
+</md-list>
+
   </md-sidenav>
 
- 
+
+  <!-- MOBILE -->
+
+  <!--<md-sidenav #sidenavmobile class="my-sidenav-mobile">
+
+<md-list class="text-center">
+ <a href="/"><md-list-item> Home </md-list-item></a>
+ <a href="/blog"><md-list-item> Blog </md-list-item></a>
+ <a href="/contact"><md-list-item> Contact </md-list-item></a>
+ <a href="/about"><md-list-item> About Trev </md-list-item></a>
+
+</md-list>
+
+  </md-sidenav>-->
+
+
+
+
+
+
+
 
 </md-sidenav-container>

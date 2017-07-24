@@ -88,6 +88,9 @@ md-sidenav-container {
     .nav-list {
         md-grid-tile {
             background: rgba(lightcyan, 0.5);
+            //   /      background-image: url('http://image.made-in-china.com/2f0j00GvmERySgAdkU/Microfiber-Leather-With-PU-Surface-ABPMFS0622-13-.jpg');
+        background-image: url('http://miriadna.com/desctopwalls/images/max/Strayed-in-the-blue-clouds.jpg');
+
             // position: fixed;
             /* or absolute */
             // top: 40%;
@@ -103,9 +106,22 @@ md-sidenav-container {
     .my-sidenav-left {
         padding: 20px;
         width: 40%;
+        background-image: url('http://miriadna.com/desctopwalls/images/max/Strayed-in-the-blue-clouds.jpg');
         background-color: rgba(lightcyan, 0.5);
         color: white;
     }
+
+    .mobile-nav {
+        padding-top: 100px;
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+
+        a:hover {
+            opacity: .5;
+        }
+    }
+
     .nav-quote {
         position: fixed;
         /* or absolute */
